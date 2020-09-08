@@ -27,17 +27,15 @@
                         <option value="multiplicacion">Multiplicacion</option>
                     </select>
                 </td>
+                <td>
+                    <input type="button" value="Enviar" onclick="EnviarConsulta();">
+                </td>
                 
             </tr>
 
 
         </table>
-
     </form> 
-
-    <?php
-        echo "hola mundo";
-    ?>
 </body>
 
 </html>
