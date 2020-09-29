@@ -4,13 +4,13 @@ include_once("../../vista/estructura/cabecera.php");
 
 ?>
 </div>
-<div id="contenido" style="height: 650px; width: 89%;margin-left:10.5%;" >
+<div id="contenido" style="height: 400px; width: 89%;margin-left:10.5%;" >
 Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
 llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
 enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
 respuesta, que permita volver a la página anterior.
 
-<hr>
+
 
     <form id="ejer1" name="ejer1" method="GET" action="accion.php" data-toggle="validator" >
     <div class="row">
@@ -27,7 +27,6 @@ respuesta, que permita volver a la página anterior.
     <div class="row">
         <div class="col-md-6 mb-3">
             <input id="btn_eje4" class="btn btn-primary" name="btn_eje4" type="submit" value="Enviar">
-            
         </div>  
     </div>
 

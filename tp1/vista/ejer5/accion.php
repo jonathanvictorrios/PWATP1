@@ -1,14 +1,14 @@
 <?php 
 include_once("../estructura/cabecera.php");
-include_once("../../control/control_eje1.php");
+include_once("../../control/control_eje5.php");
 ?>
 
 <?php 
 $datos = data_submitted();
-$obj = new control_eje1();
+$obj = new control_eje5();
 
 
-$respuesta = $obj->verificarNumero($datos);
+$respuesta = $obj->verificarEdad($datos);
 
 ?>
 
@@ -19,8 +19,8 @@ $respuesta = $obj->verificarNumero($datos);
         <br>
         <?php echo $respuesta ?>
         </p>
-        <a class="btn btn-outline-secondary" href="../ejer1/index.php" role="button">Volver atras</a>
-      
+        <hr>
+        <a class="btn btn-outline-secondary" href="../ejer5/index.php" role="button">Volver atras</a>
 </div>
 
 

@@ -1,0 +1,63 @@
+.iconoPass{
+    position:absolute;
+    left:30px;
+    top:10px;
+    margin-right:70px;
+}
+.iconoUser{
+    position:absolute;
+    left:30px;
+    top:10px;
+    margin-right:70px;
+}
+.close{
+    position:absolute;
+    left:302px;
+    top:6px;
+    margin-right:70px;
+}
+
+.invalid-feedback{
+    position:absolute;
+    left:302px;
+    top:6px;
+    margin-right:70px;
+}
+.modal-lg {
+    max-width: 60% ;
+}
+.radioRestriccion{
+    position:absolute;
+    left:10px;
+    top:35px;
+    
+}
+.botonesEnviar{
+    position:absolute;
+    left:-200px;
+
+}
+.cartelito{
+    position:absolute;
+    width: 600px;
+    left:500px;
+    top:150px;
+}
+
+.botoncitoCerrar{
+    position:absolute;
+
+    left:260px;
+    top:5px;
+}
+.carta{
+    position:absolute;
+    width: 12px;
+    
+}
+.iconojer4{
+    position:absolute;
+
+    left:-60px;
+    top:8px;
+}
